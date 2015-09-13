@@ -16,7 +16,7 @@ header{
   position: relative;
   height: 200px;
   width: 100%;
-  border-bottom: 3px solid red;
+  border-bottom: 2px solid #c57979;
   box-shadow: 0.2px 0.5px black;
   /*display: block;*/
 }
@@ -36,12 +36,74 @@ img{
     height: 100%;
 }
 .social{
-    display: inline-block;
+    /*display: inline-block;*/
     width: auto;
     float: right;
+    height: 100%;
 
 }
-.social p{display: inline-block}
+.social a{
+/*    display: inline-block;*/
+    text-decoration: none;
+    transition: all .2s;
+}
+.facebook{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #3b5998;
+}
+.facebook:hover{
+    background-color: #3b5998;
+    color: #fff;
+    transform: scale(1.1);
+
+}
+.twitter{
+    padding-left: 5px;
+    padding-right: 5px;
+    color:#00aced;
+}
+.twitter:hover{
+    background-color: #00aced;
+    color: #fff;
+    transform: scale(1.1);
+}
+.youtube{
+    padding-left: 5px;
+    padding-right: 5px;
+    color:#c4302b;
+}
+.youtube:hover{
+    background-color: #c4302b;
+    color:#fff;
+    transform: scale(1.1);
+}
+.googleplus{
+    padding-left: 5px;
+    padding-right: 5px;
+    color:#d34836;
+}
+.googleplus:hover{
+    background-color: #d34836;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+
+ul{
+    list-style: none;
+    margin-top: 70px;
+    margin-right: 50px;
+
+}
+li{
+    display: inline;
+    margin: 0 20px;
+    font-size: 1.5em;
+    font-family: waiting-for-the-sunrise;
+
+}
 
 .onetxt{
     position: absolute;
@@ -55,7 +117,7 @@ img{
 }
 .twotxt{
     position: absolute;
-    top: 35%;
+    top: 37.5%;
     left: 65%;
 }
 .twotxt h3{
