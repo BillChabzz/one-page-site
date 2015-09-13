@@ -10,15 +10,42 @@ section{
     margin: 0;
     display: block;
 }
+header{
+  background-color: #f4f4f4;
+
+  position: relative;
+  height: 200px;
+  width: 100%;
+  border-bottom: 3px solid red;
+  box-shadow: 0.2px 0.5px black;
+  /*display: block;*/
+}
 
 
 img{
    margin: 0;
     width: 100%;
 }
+.logo{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    /*float: left;*/
+}
+.logo img{
+    height: 100%;
+}
+.social{
+    display: inline-block;
+    width: auto;
+    float: right;
+
+}
+.social p{display: inline-block}
+
 .onetxt{
     position: absolute;
-    top: 2%;
+    top: 7%;
     left: 1%;
 }
 .onetxt h3{
@@ -47,3 +74,8 @@ img{
     font-size: 3em;
     font-family: waiting-for-the-sunrise;
 }
+#tops{
+    display: block;
+}
+
+
