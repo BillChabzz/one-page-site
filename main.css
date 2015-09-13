@@ -1,0 +1,38 @@
+body{
+    position: relative;
+    background-color: #fff;
+    width: auto;
+    margin: 0;
+    padding: 0;
+
+}
+section{
+    margin: 0;
+    display: block;
+}
+
+
+img{
+   margin: 0;
+    width: 100%;
+}
+.onetxt{
+    position: absolute;
+    top: 110px
+}
+.onetxt h3{
+    color: #fff;
+    font-size: 3em;
+    font-family: waiting-for-the-sunrise;
+}
+.twotxt{
+    position: absolute;
+    top: 1200px;
+    left: 1150px;
+}
+.twotxt h3{
+    color: darkgoldenrod;
+    font-size: 3em;
+    font-family: waiting-for-the-sunrise;
+
+}
