@@ -18,7 +18,8 @@ img{
 }
 .onetxt{
     position: absolute;
-    top: 110px
+    top: 2%;
+    left: 1%;
 }
 .onetxt h3{
     color: #fff;
@@ -27,12 +28,22 @@ img{
 }
 .twotxt{
     position: absolute;
-    top: 1200px;
-    left: 1150px;
+    top: 35%;
+    left: 65%;
 }
 .twotxt h3{
     color: darkgoldenrod;
     font-size: 3em;
     font-family: waiting-for-the-sunrise;
 
+}
+.threetxt{
+    position: absolute;
+    top: 90%;
+    left: 55%;
+}
+.threetxt h3{
+    color: azure;
+    font-size: 3em;
+    font-family: waiting-for-the-sunrise;
 }
