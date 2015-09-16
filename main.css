@@ -14,7 +14,7 @@ header{
   background-color: #fff;
 
   position: relative;
-  height: 200px;
+  height: 140px;
   width: 100%;
   border-bottom: 2px solid #c57979;
   box-shadow: 0.2px 0.5px black;
@@ -39,8 +39,8 @@ img{
 }
 .logo{
     display: inline-block;
-    height: 200px;
-    width: 200px;
+    height: 140px;
+    width: 140px;
     /*float: left;*/
 }
 .logo img{
@@ -116,32 +116,34 @@ li{
 
 }
 
-.onetxt{
+/*.onetxt{
     position: absolute;
     top: 7%;
     left: 1%;
-}
+}*/
 .onetxt h3{
     color: #fff;
     font-size: 3em;
     font-family: waiting-for-the-sunrise;
 }
+/*
 .twotxt{
     position: absolute;
     top: 37.5%;
     left: 65%;
 }
+*/
 .twotxt h3{
     color: darkgoldenrod;
     font-size: 3em;
     font-family: waiting-for-the-sunrise;
 
 }
-.threetxt{
+/*.threetxt{
     position: absolute;
     top: 85%;
     left: 55%;
-}
+}*/
 .threetxt h3{
     color: azure;
     font-size: 3em;
@@ -151,13 +153,39 @@ li{
   color: red;
   font-size: 1.6em;
 }
+/*FIX TO  ABSOLUTE POSITION TEXT TAGS*/
+.imgarea{
+ position: relative;
+}
+.imgarea .onetxt{
+ position: absolute;
+ top: 10px;
+}
+.imgarea .twotxt{
+position: absolute;
+top :10px;
+right: 50px;
+
+}
+.imgarea .threetxt{
+ position:absolute;
+ bottom: 10px;
+ right:10px;
+
+}
+/*END OF FIX*/
+#tops #one #three{
+ position: absolute;
+
+}
 #tops{
     display: block;
     z-index: 99999;
     position: fixed;
 }
 #one{
- padding-top: 200px;
+display: block;
+ padding-top: 140px;
 }
 #scontent{
     background-color: black;
